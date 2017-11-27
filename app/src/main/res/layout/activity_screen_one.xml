@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_bg"
+        />
+
+    <FrameLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary" />
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Roll Number\nin the search box"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:layout_marginTop="150dp"
+            android:id="@+id/textView4"
+            android:layout_marginLeft="70dp"
+             />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/Cardview"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="65dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="5dp"
+                android:text="Hostel Waiting:"
+                android:textSize="17sp"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="28dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/background_dark"
+                android:id="@+id/textView1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:id="@+id/textView"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="28dp"
+                android:textColor="@android:color/background_dark"
+                />
+        </android.support.v7.widget.CardView>
+
+    </FrameLayout>
+
+
+
+
+
+
+</RelativeLayout>

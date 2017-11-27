@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "26415877915",
+    "firebase_url": "https://utechnos-4a504.firebaseio.com",
+    "project_id": "utechnos-4a504",
+    "storage_bucket": "utechnos-4a504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26415877915:android:17a300fe22a9e06c",
+        "android_client_info": {
+          "package_name": "com.pareksha.myproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26415877915-gt2td5pdgrd78nh0fu7noqvfbkpk3nag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATJjbcRXeIagMdsnXSxPua7PUzT19-Jw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

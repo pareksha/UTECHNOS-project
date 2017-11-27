@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">UTECHNOS</string>
+
+    <string-array name="query_suggestions">
+        <item>ue173070</item>
+        <item>ue173064</item>
+    </string-array>
+</resources>
